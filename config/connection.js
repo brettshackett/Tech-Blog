@@ -4,7 +4,7 @@ let sequelize;
 if (process.env.JAWSDB_URL) {
     sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
-    sequelize = new Sequelize('tech-blog','root', '$hackettBrett2', {
+    sequelize = new Sequelize('tech_blog','root', '$hackettBrett2', {
         host: 'localhost',
         dialect: 'mysql',
         port: 3306
