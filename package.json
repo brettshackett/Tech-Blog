@@ -1,31 +1,31 @@
 {
-  "name": "tech-blog",
-  "version": "1.0.0",
-  "description": "",
-  "main":"index.js",
-  "start":"node server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brettshackett/Tech-Blog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brettshackett/Tech-Blog/issues"
-  },
-  "homepage": "https://github.com/brettshackett/Tech-Blog#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.4",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.20.1"
-  }
+    "name": "the-tech-blog",
+    "version": "1.0.0",
+    "description": "tech-blog",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:brettshackett/tech-blog.git"
+    },
+    "homepage": "https://github.com/brettshackett/tech-blog#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "connect-session-sequelize": "^6.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.4",
+        "express-session": "^1.17.1",
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.12"
+    },
+    "devDependencies": {
+        "jest": "^26.4.2",
+        "nodemon": "^2.0.4"
+    }
 }
